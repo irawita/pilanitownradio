@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'doto';
+    src: url('doto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+.page-wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h1 {
+    font-size: 300%;   
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+    margin:  auto;
+    color:  white;
+    /*margin-bottom: 20px;*/
+}
+.menu-container {
+	display: flex;
+	justify-content: center;
+	font-family: 'doto';
+
+}
+
+h3 {
+  font-size: 150%;   
+}
+.menu-item {
+	display: flex;
+	padding:  10px;
+
+}
+
+* {
+  /*outline: 2px solid red;*/
+  font-size: 24px;
+  background: black;
+  color: white;
+  font-family: 'doto';
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  text-align:  center;
+  margin:  auto;
+  position: fixed;
+  bottom: 0; 
+  font-size: 0.8em;
+}
+
+.audio {
+  display:  flex;
+  justify-content: center;
+}
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
